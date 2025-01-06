@@ -1,0 +1,58 @@
+#n{
+    display: flex;
+    color: aqua;
+    background-color: rgb(10, 87, 10);
+    justify-content: space-between;
+    border-radius: 10px;
+
+}
+h1{
+    padding-left: 10px ;
+    color: rgb(3, 3, 3);
+    font-size: 5px large;
+    margin-right: 100vh;
+}
+#a{
+    margin-top: 30px;
+    color:white ;
+    text-decoration: none;
+    margin-right: 5px;
+  
+}
+body{
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    background-color: rgb(157, 156, 156);
+
+}
+h2{
+    margin-top: 10vh;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    font-size: 40px;
+    margin-bottom: 10vh;
+
+}
+#in1{
+    background-color: rgba(64, 215, 64, 0.51);
+    border: 1px rgb(216, 205, 205) solid;
+    font-size: 20px;
+    margin-left:40vh;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    
+    
+    
+}
+input::placeholder{
+    color: rgb(225, 224, 224);
+    margin-left: 20px;
+}
+#form{
+    
+    padding: 0;
+    border-radius: 10px;
+    color: rgb(15, 173, 173);
+}
