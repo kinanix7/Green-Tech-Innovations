@@ -4,54 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/Contactez-nous.css">
-    <script src="/script/Contactez-nous.js"></script>
+    <script defer src="/script/Contactez-nous.js"></script>
     <title>Document</title>
 </head>
 <body>
-  
-
   <div class="div" id="dd">
     <nav id="n">
-        <h1>OrangeTech Innovations  </h1>
-
-        
-          <a href="#" id="a">accueil</a>
-          <a href="#" id="a">nos services</a>
-          <a href="#" id="a">A propos de nous</a>
-          <a href="#" id="a">FAQ</a>
-          <a href="#" id="a">Contactez nous</a>
-          
-        
+        <h1>GreenTech Innovators</h1>
+        <ul>
+            <li><a href="#" id="a">Accueil</a></li>
+            <li><a href="#" id="a">Nos Services</a></li>
+            <li><a href="#" id="a">À propos de nous</a></li>
+            <li><a href="#" id="a">FAQ</a></li>
+            <li><a href="#" id="a">Contactez-nous</a></li>
+        </ul>
     </nav>
 
     <h2>Contactez-nous</h2>
 
     <form id="form" action="/">
         <div class="input">
-            <input type="text" placeholder="Entrez votre nom" id="in1" required><br>
-            <div class="error"></div>
+            <input type="text" placeholder="Entrez votre nom" id="nom">
+            <span id="errornom" style="color: red;" >champ obligatoire !</span>  
         </div>
         <div class="input">
-            <input type="email" placeholder="Entrez votre email" id="in1"><br>  
-            <div class="error"></div>
-        </div>
+            <input type="email" placeholder="Entrez votre email" id="email"> 
+            <span id="errormail" style="color: red;" >champ obligatoire !</span>        </div>
         <div class="input">
-            <input type="text" placeholder="Entrez votre sujet" id="in1" required><br>
-            <div class="error"></div>
-        </div>
-        <div class="input">
-            <input type="text" placeholder="Entrez votre message" id="in1" required><br>
-            <div class="error"></div>
+            <input type="text" placeholder="Entrez votre sujet" id="suj" required>
+            <span id="errorsuj" style="color: red;">champ obligatoire !</span>        </div>
+        <div class="input" id="ffff">
+            <textarea type="text" placeholder="Entrez votre message" id="msj" required></textarea>
+            <span id="errormsj" style="color: red;">champ obligatoire !</span>        
         </div>
 
+        <input type="submit" id="submit" value="envoyer">
     </form>
-
-    
-  
-
-    
-
   </div>
   
+
 </body>
 </html>
