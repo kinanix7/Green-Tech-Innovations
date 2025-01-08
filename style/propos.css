@@ -25,7 +25,7 @@ body::before {
     background-size: cover;
     background-position: center;
     filter: blur(10px);
-    z-index: -1; /* Ensures the background stays behind the content */
+    z-index: -1; 
   }
 
 nav {
@@ -69,7 +69,7 @@ nav h1 {
 }
 
 
-/* Conteneur principal */
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -85,20 +85,24 @@ img{
 }
 
 
-/* Contenu texte */
+
 .text-content {
     flex: 1;
-    text-align: justify; /* Justifier le texte */
+    text-align: justify; 
 }
 
-/* Style du titre h1 */
+
 .text-content h1 {
+<<<<<<< HEAD
     color: #ffffff; /* Couleur gris */
+=======
+    color: #7a7a7a;
+>>>>>>> 11556bf59c45611fb174f7a22128ac93ca08182e
     margin-bottom: 15px;
     margin-left: 20px;
 }
 
-/* Style du paragraphe */
+
 .text-content p {
     padding: 15px;
     width: 300px;
@@ -110,9 +114,9 @@ img{
     font-weight: bold;
 }
 
-/* Style du bouton */
+
 .text-content button {
-    background-color: #28a745; /* Vert */
+    background-color: #28a745; 
     color: white;
     padding: 10px 20px;
     border: none;
@@ -124,9 +128,10 @@ img{
 }
 
 .text-content button:hover {
-    background-color: #218838; /* Vert foncé au survol */
+    background-color: #218838; 
 }
 
+<<<<<<< HEAD
 .services {
     padding: 50px 20px;
     background-color: #f9f9f9;
@@ -182,3 +187,6 @@ footer {
 footer p {
     margin: 0;
 }
+=======
+
+>>>>>>> 11556bf59c45611fb174f7a22128ac93ca08182e
