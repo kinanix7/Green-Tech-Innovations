@@ -9,8 +9,9 @@ const errmsj = document.getElementById('errormsj');
 
 
 nom.addEventListener('input',function(){
-    if(nom.value!=='' && nom.value!==null){
-        err.textContent='';
+    if(nom.value!=='' && nom.value!==null && nom.value.length>3){
+        err.textContent='valide';
+        err.style.color='green';
         nom.style.borderColor='white';
     }else{
         err.textContent='champ obligatoire !'
@@ -19,6 +20,7 @@ nom.addEventListener('input',function(){
 
 })
 email.addEventListener('input',function(){
+    let regex = /((?=.*[a-z])(?=.*[A-Z])(?=.*[^A-Za-z0-9])(?=.{8,}))/;
     if(email.value!=='' && email.value!==null){
         errmail.textContent='';
         email.style.borderColor='white';
@@ -27,11 +29,19 @@ email.addEventListener('input',function(){
         email.style.borderColor='red';
 
     }
+    if(regex.test(this.value)){
+        errmail.textContent='format valide'
+        errmail.style.color='green'
+    }else{
+        errmail.textContent='format invalide'
+        errmail.style.color='orange'
+    }
 
 })
 sujet.addEventListener('input',function(){
-    if(sujet.value!=='' && sujet.value!==null){
-        errsujet.textContent='';
+    if(sujet.value!=='' && sujet.value!==null && sujet.value.length>5){
+        errsujet.textContent='valide';
+        errsujet.style.color='green';
         sujet.style.borderColor='white';
     }else{
         errsujet.textContent='champ obligatoire !'
@@ -40,9 +50,10 @@ sujet.addEventListener('input',function(){
 
 })
 message.addEventListener('input',function(){
-    if(message.value!=='' && message.value!==null){
-        errmsj.textContent='';
-        message.style.borderColor='white';
+    if(message.value!=='' && message.value!==null && message.value.length>10){
+        errmsj.textContent='valide';
+        errmsj.style.color='green';
+        message.style.border='white';
     }else{
         errmsj.textContent='champ obligatoire !'
         message.style.borderColor='red';
