@@ -3,22 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil - GreenTech Innovators</title>
-    <link rel="icon" href="/assets/icon/icon.png">
     <link rel="stylesheet" href="/style/Contactez-nous.css">
+    <script defer src="/script/Contactez-nous.js"></script>
+    <title>Document</title>
 </head>
 <body>
-    
-        <nav>
-            <h1>GreenTech Innovators</h1>
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Nos Services</a></li>
-                <li><a href="#">À propos de nous</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contactez-nous</a></li>
-            </ul>
-        </nav>
-    
+  <div class="div" id="dd">
+    <nav id="n">
+        <h1>GreenTech Innovators</h1>
+        <ul>
+            <li><a href="#" id="a">Accueil</a></li>
+            <li><a href="#" id="a">Nos Services</a></li>
+            <li><a href="#" id="a">À propos de nous</a></li>
+            <li><a href="#" id="a">FAQ</a></li>
+            <li><a href="#" id="a">Contactez-nous</a></li>
+        </ul>
+    </nav>
+
+    <h2>Contactez-nous</h2>
+
+    <form id="form" action="/">
+        <div class="input">
+            <input type="text" placeholder="Entrez votre nom" id="nom">
+            <span id="errornom" style="color: red;" >champ obligatoire !</span>  
+        </div>
+        <div class="input">
+            <input type="email" placeholder="Entrez votre email" id="email"> 
+            <span id="errormail" style="color: red;" >champ obligatoire !</span>        </div>
+        <div class="input">
+            <input type="text" placeholder="Entrez votre sujet" id="suj" required>
+            <span id="errorsuj" style="color: red;">champ obligatoire !</span>        </div>
+        <div class="input" id="ffff">
+            <textarea type="text" placeholder="Entrez votre message" id="msj" required></textarea>
+            <span id="errormsj" style="color: red;">champ obligatoire !</span>        
+        </div>
+
+        <input type="submit" id="submit" value="envoyer">
+    </form>
+  </div>
+  
+
 </body>
 </html>
