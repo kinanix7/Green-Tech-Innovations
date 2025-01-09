@@ -60,4 +60,8 @@ message.addEventListener('input',function(){
     }
 
 })
+<<<<<<< HEAD
 
+=======
+do
+>>>>>>> 4faeb53737c1832ec4e272cbe83defb8b670e069
