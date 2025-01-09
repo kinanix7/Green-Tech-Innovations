@@ -11,7 +11,7 @@ body {
     padding: 0;
     line-height: 1.6;
     color: #333;
-    height: 100vh;
+    height: 90vh;
    
     
 }
@@ -89,6 +89,7 @@ img{
 
 
 .text-content {
+    margin-top: 20px;
     flex: 1;
     text-align: justify; 
 }
@@ -102,7 +103,7 @@ img{
 
 
 .text-content p {
-    padding: 30px;
+    padding: 20px;
     width: 300px;
     margin-bottom: 20px;
     line-height: 1.6;
@@ -180,14 +181,9 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
-    position: sticky; 
-    bottom: 0; 
-    left: 0;
-    width: 100%; 
-    margin-top: 0; 
+    margin-top: 50px;
 }
 
 footer p {
     margin: 0;
 }
-
