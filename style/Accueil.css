@@ -5,8 +5,6 @@ body {
     line-height: 1.6;
     color: #333;
 }
-
-/* Navigation Bar */
 nav {
     background-color: #2DCC70;
     color: #fff;
@@ -46,7 +44,6 @@ nav h1 {
     font-size: 24px;
 }
 
-/* Hero Section */
 .hero {
     background-color: #7F7F7F;
     padding: 100px 20px;
