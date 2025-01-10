@@ -113,10 +113,12 @@ img{
     font-weight: bold;
 }
 
-
+.text-content button a{
+text-decoration: none;
+color: white; 
+}
 .text-content button {
-    background-color: #28a745; 
-    color: white;
+    background-color: #28a745;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
